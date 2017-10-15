@@ -5,5 +5,45 @@ body {
 }
 
 .container {
-  margin: 0;
+  padding: 5px;
+}
+
+.App {
+  padding: 20px;
+}
+
+.form-label {
+  text-align: right;
+  padding: 5px 0 0 0;
+}
+
+.header {
+  font-weight: bold;
+  text-align: left;  
+}
+
+.header-details {
+  text-align:left;
+}
+
+.highlight {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 8px;
+  height: 40px;
+  float: left;
+  background-color: red;
+}
+
+.list-group-item {
+  position: relative;
+  clear:both;
+}
+
+.message {
+  width: 220px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
